@@ -2,7 +2,7 @@ package Oops;
 
 public class Student02 {
   
-  }
+  
   
   public static void main(String[] args) {
     Student1 s1=new Student1();

@@ -10,9 +10,9 @@ public class ParamerizedConstructor {
     System.out.println("In Constructor");
     System.out.println(i+" "+ s);
   }
-  ParamerizedConstructor(int i,String s){
-    this.i=i;
-    this.s=s;
+  ParamerizedConstructor(int k,String s1){
+       i=k;
+       s=s1;
     System.out.println(i+" "+s);
 
   }
@@ -31,7 +31,7 @@ public class ParamerizedConstructor {
     //
     ParamerizedConstructor p2=new ParamerizedConstructor(50,"rohan");
     ParamerizedConstructor p3=new ParamerizedConstructor(10,20,30);
-    ConstructorDemo1 v1=new ConstructorDemo1();
+    
     p1.display();
   }
 }

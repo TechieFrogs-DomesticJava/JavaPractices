@@ -2,10 +2,10 @@ package Oops;
 import java.lang.Math; 
 public class Triangle04 {
   int a,b,c;
-  Triangle04(int a,int b,int c){
-    this.a=a;
-    this.b=b;
-    this.c=c;
+  Triangle04(int i,int j,int k){
+    a=i;
+    b=j;
+    c=k;
 
     int s= (a+b+c)/2;
     double area;

@@ -1,8 +1,8 @@
-class Instancevar1{
+class StaticExp{
     int id;
      String name;
   public static void main(String[] args) {
-    Instancevar1 v1=new Instancevar1();
+    StaticExp v1=new StaticExp();
       v1.namesId(001,"siva");
       v1.display();
   }
@@ -10,7 +10,7 @@ class Instancevar1{
          id=number;
         name=string;
   }
-  public    void display(){
+  public void display(){
     System.out.println(id);
     System.out.println(name);
   }
