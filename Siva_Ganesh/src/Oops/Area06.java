@@ -1,6 +1,16 @@
 package Oops;
 import java.util.*;
- 
+class Area {
+  
+  int length,breadth;
+  void setDim(int l,int b){
+    length=l;
+    breadth=b;
+  }
+  int getArea(){
+    return length*breadth;
+  }
+}
 public class Area06{
   public static void main(String[] args) {
     int l,b;
