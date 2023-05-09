@@ -52,6 +52,7 @@ public class Complex09 extends Complex {
         C3 = C3.subtractComp(C1, C2);
         System.out.print("Difference of ");
         C3.printComplexNumber();
+        sc1.close();
     }
 }
 

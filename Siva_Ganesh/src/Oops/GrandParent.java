@@ -1,7 +1,7 @@
 package Oops;
 
 public class GrandParent {
-  GrandParent(){
+  protected GrandParent(){
     
     System.out.println("In Grand parent class");
   }
