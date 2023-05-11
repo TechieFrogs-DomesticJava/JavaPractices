@@ -1,43 +1,93 @@
 package Methods_Assignment;
+
+
+  
 /*Create a class named 'PrintNumber' to print various numbers of different datatypes
  by creating different methods with the same name 'printn' 
  having a parameter for each datatype.*/
-public class PrintNumber {
-  public void printn(int n){
-    System.out.println("int value is :"+n);
+
+ public class PrintNumber {
+
+   
+
+  // Method to print an integer
+
+  public void printn(int num) {
+
+      System.out.println("Integer Value is : " + num);
+
   }
-  public void printn(double n){
-    
-    System.out.println("Double value is :"+n);
+
+ 
+
+  // Method to print a float
+
+  public void printn(float num) {
+
+      System.out.println("Float value is : " + num);
+
   }
-  
-  public void printn(Float n){
-    System.out.println("Float value is :"+n);
+
+ 
+
+  // Method to print a double
+
+  public void printn(double num) {
+
+      System.out.println("Double value is  : " + num);
+
   }
-  public void printn(byte n){
-    System.out.println("the value of Byte is:"+n);
+
+ 
+
+  // Method to print a long
+
+  public void printn(long num) {
+
+      System.out.println("Long value is: " + num);
+
   }
-  public void printn(short n){
-    System.out.println("The value of short is :"+n);
+
+ 
+
+  // Method to print a boolean
+
+  public void printn(boolean value) {
+
+      System.out.println("Boolean value is : " + value);
+
   }
-  public void printn(Boolean n){
-    System.out.println("The value of boolean is :"+n);
+
+ 
+
+  // Method to print a string
+
+  public void printn(String str) {
+
+      System.out.println("String value is: " + str);
+
   }
-  public Long printn(Long n){
-    System.out.println("The value of Long is :"+n);
-    return n;
+
+ 
+
+  // Main method to test the class
+
+  public static void main(String[] args) {
+
+      PrintNumber obj = new PrintNumber();
+
+      obj.printn(10);
+
+      obj.printn(3.14f);
+
+      obj.printn(3.14159);
+
+      obj.printn(100000000000L);
+
+      obj.printn(true);
+
+      obj.printn("Hello, world!");
+
   }
-  public void printn(char n){
-    System.out.println("The value of char is:"+n);
-  }
-public static void main(String[] args) {
-  PrintNumber p1=new PrintNumber();
-  p1.printn(10);
-  p1.printn('A');
-  p1.printn(true);
-  p1.printn(8.9f);
-  p1.printn(1000000L);
-  p1.printn(3.14159);
-  p1.printn(100000);
-}
+
 }
