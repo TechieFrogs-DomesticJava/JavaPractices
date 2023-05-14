@@ -2,6 +2,7 @@ package Oops;
 
 public class ClassDemo {
   static String Organisation="TechieFrogs";
+  
   public static void main(String[] args) {
     Organisation s1=new Organisation();
     Organisation s2=new Organisation();

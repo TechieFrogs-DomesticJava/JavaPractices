@@ -20,7 +20,8 @@ class ClassB extends ClassA{
 
 class Test{
   public static void main(String[] args) {
-    ClassB b1=new ClassB();
+    ClassA b1=new ClassB();
+    b1.show();
     b1.show();
   }
 }
