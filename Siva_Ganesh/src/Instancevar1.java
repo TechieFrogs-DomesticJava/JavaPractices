@@ -2,13 +2,14 @@
  class Instancevar1{
   //static String company="techie Frogs";
  // int a,b;
+    boolean b1;
     int id;
      String name;
  
   public static void main(String[] args) {
     
     Instancevar1 v1=new Instancevar1();
-    
+    System.out.println("Boolean : "+v1.b1);
   //   v1.a=10;v1.b=20;
   //  System.out.println(v1.a+v1.b);
   //   Student in1=new Student();

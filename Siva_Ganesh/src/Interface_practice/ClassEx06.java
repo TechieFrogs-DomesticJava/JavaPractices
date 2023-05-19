@@ -29,6 +29,7 @@ public static void main(String[] args) {
     second(sc);
     third(sc);
     comb(sc);
+    
 }
 }
 interface First {
@@ -67,42 +68,42 @@ class SuperCombined extends Base implements Combined {
 
   @Override
   public void firstOne() {
-      System.out.println("firstOne()");
+      System.out.println("In the firstOne");
 
   }
 
   @Override
   public void firstTwo() {
-      System.out.println("firstTwo()");
+      System.out.println(" In the firstTwo");
 
   }
 
   @Override
   public void secondOne() {
-      System.out.println("secondOne()");
+      System.out.println("In the secondOne");
 
   }
 
   @Override
   public void secondTwo() {
-      System.out.println("secondTwo()");
+      System.out.println("In the secondTwo");
 
   }
 
   @Override
   public void thirdOne() {
-      System.out.println("thirdOne()");
+      System.out.println("In the thirdOne");
 
   }
 
   @Override
   public void thirdTwo() {
-      System.out.println("thirdTwo()");
+      System.out.println("In the thirdTwo");
   }
 
   @Override
   public void combined() {
-      System.out.println("combined()");
+      System.out.println("In the combined");
 
   }
 }
