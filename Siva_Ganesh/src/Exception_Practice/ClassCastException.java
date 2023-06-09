@@ -2,36 +2,40 @@ package Exception_Practice;
 
 
    class Animal {  
-    String color;  
-    Animal(String color){  
-    this.color = color;  
-    }  
+     
     void eat(String name) {  
-    System.out.println(name + " is eating .....");  
+    System.out.println(name );  
     }  
     void show(String name) {  
-    System.out.println(name + " is of " + color + " Color");  
+    System.out.println(name );  
     }  
     }  
     class Dog extends Animal{  
-    Dog(String color) {  
-    super(color);  
-    // TODO Auto-generated constructor stub  
-    }  
+      void bark(){
+        System.out.println("Barking");
+      }
     void eat(String name) {  
-    System.out.println(name + " is eating ....");  
+    System.out.println( " is eating ");  
     }  
-    }  
+    } 
+    class Cat extends Animal{
+        void meow(){
+            System.out.println("Meow");
+        }
+    } 
       
-    public class ClassCastException {  
+public class ClassCastException {  
     public static void main(String[] args) {  
-    // TODO Auto-generated method stub  
-    Dog dog = new Dog("black");  
-    Animal animal = new Animal("White");  
-    animal = dog;  
-    animal.show("My dog");  
-      
-    Animal animal1 = new Animal("White");  
-    Dog d = (Dog)animal1;  
-    }  
+        Dog d1=new Dog();
+        Cat c1=new Cat();
+        Animal animal = c1;
+    try{
+    if(d1 instanceof Dog)
+         
+      ((Dog)animal).bark();
+    }
+    catch(Exception ex){
+        System.out.println(ex);
+    }
+}  
 }
