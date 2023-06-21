@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumOfRowColum",
+      "request": "launch",
+      "mainClass": "Arrays_Practice.SumOfRowColum",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ProductOfTwoMatrix",
+      "request": "launch",
+      "mainClass": "Arrays_Practice.ProductOfTwoMatrix",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"

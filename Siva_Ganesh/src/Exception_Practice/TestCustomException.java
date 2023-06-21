@@ -1,0 +1,48 @@
+package Exception_Practice;
+import java.util.*;
+class InvalidAgeException  extends Exception  
+{  
+    public InvalidAgeException (String str)  
+    {  
+        // calling the constructor of parent Exception  
+        super(str);  
+    }  
+}  
+    
+// class that uses custom exception InvalidAgeException  
+public class TestCustomException {  
+  
+    // method to check the age  
+    static void validate (int age) throws InvalidAgeException{    
+       if(age < 18){  
+  
+        // throw an object of user defined exception  
+        throw new InvalidAgeException("age is not valid to vote");    
+    }  
+       else {   
+        System.out.println("welcome to vote");   
+        }   
+     }    
+  
+    // main method  
+    public static void main(String args[])  
+    {  
+      Scanner sc1=new Scanner(System.in);
+      System.out.print("Enter age : ");
+      int age1 =sc1.nextInt();
+        try  
+        {  
+            // calling the method   
+            validate(age1);  
+        }  
+        catch (InvalidAgeException ex)  
+        {  
+            System.out.println("Caught the exception");  
+    
+            // printing the message from InvalidAgeException object  
+            System.out.println("Exception occured: " + ex);  
+        }  
+  
+        System.out.println("rest of the code...");    
+    }  
+}  
