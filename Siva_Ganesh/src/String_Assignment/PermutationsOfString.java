@@ -20,8 +20,7 @@ public class PermutationsOfString {
  
             // Rest of the string after excluding
             // the ith character
-            String ros = str.substring(0, i) +
-                        str.substring(i + 1);
+            String ros = str.substring(0, i) + str.substring(i + 1);
  
             // Recursive call
             printPermutn(ros, ans + ch);

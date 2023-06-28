@@ -11,6 +11,6 @@ public class IterateEachElementOfaStringUsingForEach {
       
     }
     System.out.println(str2.contains(str2));
-    System.out.println(indexOf(str2));
+    
 }
 }

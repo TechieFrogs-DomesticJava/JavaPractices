@@ -46,15 +46,13 @@ public class SmallestAndBiggestPalindrome {
                     // If length of smallest is greater
                     // than next palindromic word then
                     // Store that word in smallest
-                    if (smallest.length()
-                        > words[i].length())
+                    if (smallest.length() > words[i].length())
                         smallest = words[i];
   
                     // If length of longest is less
                     // than next palindromic word then
                     // Store that word in longest
-                    if (longest.length()
-                        < words[i].length())
+                    if (longest.length() < words[i].length())
                         longest = words[i];
                 }
             }

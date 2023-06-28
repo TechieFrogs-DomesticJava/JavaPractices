@@ -14,6 +14,12 @@ class Cats extends Animals{
     System.out.println("Cats meow");
   }
 
+  @Override
+  public void dogs() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'dogs'");
+  }
+
 } 
   class Dogs extends Animals{
     @Override
@@ -25,6 +31,11 @@ class Cats extends Animals{
     Cats c1=new Cats();
     d1.dogs();
     c1.cats();
+  }
+  @Override
+  public void cats() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'cats'");
   }
 }
 

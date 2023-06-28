@@ -1,13 +1,10 @@
 package Arrays_Practice;
-
 public class ArraysDemo {
   static void sum(int a[]){
     int sum=0;
     System.out.println("Sum of Array Elements : ");
-    for (int i : a) {
-      
-       sum=sum+i;
-       
+    for (int i : a) { 
+       sum=sum+i;  
     }
     System.out.println("Sum of array is :"+sum);
   }

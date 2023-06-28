@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GuessingNumber",
+      "request": "launch",
+      "mainClass": "GuessingNumber",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "EmpDemo",
+      "request": "launch",
+      "mainClass": "EmpDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "B1",
+      "request": "launch",
+      "mainClass": "B1",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "MultiThreadingRunnableDemo",
+      "request": "launch",
+      "mainClass": "MultiThreading_practice.MultiThreadingRunnableDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "MultiThreadingRunnableDemo",
+      "request": "launch",
+      "mainClass": "MultiThreadingRunnableDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "Multithread",
+      "request": "launch",
+      "mainClass": "MultiThreading_practice.Multithread",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "CloneImplementDemo",
+      "request": "launch",
+      "mainClass": "CloneImplementDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
       "name": "SumOfRowColum",
       "request": "launch",
       "mainClass": "Arrays_Practice.SumOfRowColum",
