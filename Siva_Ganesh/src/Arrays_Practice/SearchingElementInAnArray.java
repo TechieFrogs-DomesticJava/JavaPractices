@@ -1,0 +1,23 @@
+package Arrays_Practice;
+
+public class SearchingElementInAnArray {
+  static int key;
+  public static int sort(int arr[],int key){
+    for(int i=0;i<arr.length;i++){
+      if(arr[i]==key)
+          
+        return  i;
+      }
+      return -1;
+    }
+    
+  
+  public static void main(String[] args) {
+    int arr[] ={1,2,3,45,5,6,76,45,65,32};
+    int res=sort(arr,6);
+    if(res==-1){
+      System.out.println("Key is Not found : ");
+    }
+    System.out.println("Key is  found "+arr[res]);
+  }
+}

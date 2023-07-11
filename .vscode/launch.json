@@ -6,6 +6,160 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CircularLinkedListDemo",
+      "request": "launch",
+      "mainClass": "CircularLinkedListDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "QueueSolution",
+      "request": "launch",
+      "mainClass": "QueueSolution",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ReferenceTypeCastingDemo",
+      "request": "launch",
+      "mainClass": "ReferenceTypeCastingDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "StackDemo",
+      "request": "launch",
+      "mainClass": "StackDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "SearchingElementInAnArray",
+      "request": "launch",
+      "mainClass": "Arrays_Practice.SearchingElementInAnArray",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ConvertLinkedListToArray",
+      "request": "launch",
+      "mainClass": "ConvertLinkedListToArray",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "SwappingElementsOfLinkedList",
+      "request": "launch",
+      "mainClass": "SwappingElementsOfLinkedList",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListExercise",
+      "request": "launch",
+      "mainClass": "LinkedListExercise",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListDemo",
+      "request": "launch",
+      "mainClass": "LinkedListDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListDemo",
+      "request": "launch",
+      "mainClass": "Collections.LinkedListDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercises7",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercises7",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercise6",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercise6",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercise5",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercise5",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercise4",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercise4",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercies3",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercies3",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExercies1",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListExercies1",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListDemo1",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListDemo1",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListDemo",
+      "request": "launch",
+      "mainClass": "Collections.ArrayListDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ClassicalDateDemo",
+      "request": "launch",
+      "mainClass": "ClassicalDateDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "ForPracticeDemo",
+      "request": "launch",
+      "mainClass": "ForPracticeDemo",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
+      "name": "UpperTriangleMatrix",
+      "request": "launch",
+      "mainClass": "Arrays_Practice.UpperTriangleMatrix",
+      "projectName": "JavaPractices_384fe5fc"
+    },
+    {
+      "type": "java",
       "name": "GuessingNumber",
       "request": "launch",
       "mainClass": "GuessingNumber",

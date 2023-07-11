@@ -11,8 +11,7 @@ public class StringDivideByN {
         // Check if string can be divided in
         // n equal parts
         if (str_size % n != 0) {
-            System.out.println("Invalid Input: String size"
-                               + "is not divisible by n");
+            System.out.println("Invalid Input: String size"+ "is not divisible by n");
             return;
         }
  

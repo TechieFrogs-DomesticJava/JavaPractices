@@ -14,6 +14,7 @@ public class StringReverse {
     }
     System.out.println(reve);
     System.out.println(num);
+    sc.close();
   }
 }
 class BiggestNum{
@@ -34,5 +35,6 @@ class BiggestNum{
         }
     }
     System.out.println("Largest Number in the Array is :"+largest);
+    sc1.close();
   }
 }
